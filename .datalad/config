@@ -1,2 +1,5 @@
 [datalad "dataset"]
 	id = 4db190cb-396a-41ab-a982-333b9e05eedb
+[datalad "containers.fsl"]
+	image = .datalad/environments/fsl/image
+	cmdexec = singularity exec --cleanenv {img} {cmd}
